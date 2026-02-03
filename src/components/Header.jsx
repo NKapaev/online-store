@@ -26,19 +26,18 @@ export default function Header() {
             }
           }}
         >
-          <img className="logo-icon" src="/images/logo.svg" alt="Logo" />
+          <img className="logo-icon" src="./images/logo.svg" alt="Logo" />
         </Link>
 
         <Link className="cart-link link" to={"/cart"}>
           <span
-            className={`cart-link-button-output ${
-              productsQuantity === 0 || location.pathname !== "/"
-                ? "hidden"
-                : ""
-            }`}
+            className={`cart-link-button-output ${productsQuantity === 0 || location.pathname !== "/"
+              ? "hidden"
+              : ""
+              }`}
           >{`${cart.length !== 0 ? productsQuantity : ""}`}</span>
           <img
-            src="/images/cart-icon.svg"
+            src="./images/cart-icon.svg"
             alt="Cart icon"
             className="cart-icon"
           />

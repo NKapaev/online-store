@@ -125,9 +125,8 @@ export default function ShipmentInformation() {
                         required: "This is required",
                         validate: (value) => value !== "" || "This is required",
                       })}
-                      className={`text-input shipment-select ${
-                        errors.country ? "error" : ""
-                      }`}
+                      className={`text-input shipment-select ${errors.country ? "error" : ""
+                        }`}
                       name="country"
                       id="country"
                     >
@@ -140,7 +139,7 @@ export default function ShipmentInformation() {
                     </select>
                     <img
                       className="drop-icon"
-                      src="/images/drop-icon.svg"
+                      src="./images/drop-icon.svg"
                       alt="Drop icon"
                     />
                   </div>
@@ -156,9 +155,8 @@ export default function ShipmentInformation() {
                         required: "This is required",
                         validate: (value) => value !== "" || "This is required",
                       })}
-                      className={`text-input shipment-select ${
-                        errors.state ? "error" : ""
-                      }`}
+                      className={`text-input shipment-select ${errors.state ? "error" : ""
+                        }`}
                       name="state"
                       id="state"
                     >
@@ -171,7 +169,7 @@ export default function ShipmentInformation() {
                     </select>
                     <img
                       className="drop-icon"
-                      src="/images/drop-icon.svg"
+                      src="./images/drop-icon.svg"
                       alt="Drop icon"
                     />
                   </div>

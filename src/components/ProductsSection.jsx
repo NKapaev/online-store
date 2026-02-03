@@ -22,7 +22,7 @@ const ProductCard = memo(({ product }) => {
         {added ? (
           <>
             <img
-              src="/images/check-icon.svg"
+              src="./images/check-icon.svg"
               alt="Added"
               className="button-icon"
             />{" "}
@@ -31,7 +31,7 @@ const ProductCard = memo(({ product }) => {
         ) : (
           <>
             <img
-              src="/images/plus-icon.svg"
+              src="./images/plus-icon.svg"
               alt="Add to cart"
               className="button-icon"
             />{" "}

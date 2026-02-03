@@ -31,7 +31,7 @@ export default function CartPage() {
             >
               <img
                 className="delete-button-icon"
-                src="/images/trash-icon.svg"
+                src="./images/trash-icon.svg"
                 alt="Trash icon"
               />
               Delete

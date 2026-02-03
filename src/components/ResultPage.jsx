@@ -19,7 +19,7 @@ export default function ResultPage() {
     <section className="result-section">
       <div className="container">
         <div className="result-image-container">
-          <img src="/images/order-check-icon.svg" alt="" />
+          <img src="./images/order-check-icon.svg" alt="" />
         </div>
         <h2 className="title result-section-title">
           Thank you for your order!

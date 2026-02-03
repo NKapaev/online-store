@@ -1,5 +1,5 @@
 import "./App.css";
-import { Link, Route, Router, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import ProductsSection from "./components/ProductsSection";
 import CartPage from "./components/CartPage";
